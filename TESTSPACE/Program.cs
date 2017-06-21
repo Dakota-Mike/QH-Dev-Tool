@@ -9,8 +9,6 @@ namespace TESTSPACE
 		{
 			QHSchool p1 = new QHSchool('#', "bicep", "working", "19XX!?" , "School");
 			Console.WriteLine (p1.save());
-			QHInput.Input();
-			QHOutput.Input();
 		}
 	}
 }
